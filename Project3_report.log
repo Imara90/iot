@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  27 OCT 2013 20:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  27 OCT 2013 23:28
 entering extended mode
 **S:/School/Internet*of*Things/iot/Project3_report.tex
 ("S:/School/Internet of Things/iot/Project3_report.tex"
@@ -531,54 +531,127 @@ Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/12'. Switching off
 (microtype)                protrusion for this font on input line 122.
 
-("S:\School\Internet of Things\iot\realize.tex") [1
+("S:\School\Internet of Things\iot\realize.tex" [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] ("S:\School\Internet of T
-hings\iot\proto.tex"
-<images/statediagram.pdf, id=57, 305.05971pt x 314.26408pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OT1/cmr/bx/n/10.95'. Switching off
+(microtype)                protrusion for this font on input line 5.
+
+
+LaTeX Warning: Citation `IAmp' on page 2 undefined on input line 5.
+
+) ("S:\School\Internet of Things\iot\proto.tex"
+<images/statediagram.pdf, id=61, 305.05971pt x 314.26408pt>
 File: images/statediagram.pdf Graphic file (type pdf)
 
 <use images/statediagram.pdf>
 Package pdftex.def Info: images/statediagram.pdf used on input line 7.
 (pdftex.def)             Requested size: 288.0011pt x 296.71738pt.
- [2])
-("S:\School\Internet of Things\iot\proposed.tex")
-("S:\School\Internet of Things\iot\internet.tex" [3 <S:/School/Internet of Thin
-gs/iot/images/statediagram.pdf>]) ("S:\School\Internet of Things\iot\results.te
-x") ("S:\School\Internet of Things\iot\conclusion.tex")
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2]) ("S:\School\Internet of Things\iot\proposed.tex"
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OT1/cmr/m/n/8'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OT1/cmr/m/n/6'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OML/cmm/m/it/10.95'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OML/cmm/m/it/8'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OML/cmm/m/it/6'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OMS/cmsy/m/n/10.95'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OMS/cmsy/m/n/8'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OMS/cmsy/m/n/6'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OMX/cmex/m/n/10.95'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OMX/cmex/m/n/8'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OMX/cmex/m/n/6'. Switching off
+(microtype)                protrusion for this font on input line 10.
+
+[3 <S:/School/Internet of Things/iot/images/statediagram.pdf>])
+("S:\School\Internet of Things\iot\internet.tex" [4])
+("S:\School\Internet of Things\iot\results.tex")
+("S:\School\Internet of Things\iot\conclusion.tex")
 ("S:\School\Internet of Things\iot\Project3_report.bbl"
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
- [4]
+ [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  ("S:\School\Internet of Things\iot\Project3_report.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `Project3_report.out' has not changed.
-(rerunfilecheck)             Checksum: 1CF440AF9E660DBAB56DC75B4CB2EDF0;618.
+(rerunfilecheck)             Checksum: DB75BE9E7F6467C19DBEC653B8F091D4;677.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 9805 strings out of 494045
- 145662 string characters out of 3148387
- 262190 words of memory out of 3000000
- 12894 multiletter control sequences out of 15000+200000
- 8957 words of font info for 56 fonts, out of 3000000 for 9000
+ 9914 strings out of 494045
+ 146809 string characters out of 3148387
+ 266190 words of memory out of 3000000
+ 12922 multiletter control sequences out of 15000+200000
+ 15045 words of font info for 100 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 41i,18n,38p,646b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,18n,38p,868b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmti12.pfb>
-Output written on Project3_report.pdf (4 pages, 824298 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Project3_report.pdf (5 pages, 860399 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 24662 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 49246 words of extra memory for PDF output out of 51595 (max. 10000000)
 
