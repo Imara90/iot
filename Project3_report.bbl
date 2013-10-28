@@ -1,3 +1,23 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{sxsw}
+
+
+\bibitem{coachella}
+
+
+\bibitem{bonnaroo}
+
+
+\bibitem{IAmp}
+ref still.
+
+\bibitem{lecture}
+Ringo Doe.
+\newblock This is a test entry of type {@ONLINE}, June 2009.
+
+\bibitem{thingmagic}
+A.~Zauner.
+\newblock On tour with rfid.
 
 \end{thebibliography}

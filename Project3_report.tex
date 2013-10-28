@@ -1,7 +1,8 @@
 \documentclass[a4paper, 11pt]{article}
 
 %Handige usepackages voor essays
-%\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+%\usepackage[protrusion=true,expansion=true]{microtype}
+%\usepackage{microtype}
 \usepackage{graphicx} % Required for including pictures
 \usepackage{wrapfig} % Allows in-line images
 %\usepackage{mathpazo} % Use the Palatino font
@@ -24,8 +25,16 @@
 \usepackage{nameref}
 \usepackage{listings}
 
+\usepackage{url} % to include references to websites
+\usepackage{hyperref} % website referencing
+
+%\usepackage[style=alpha, backend=bibtex]{biblatex}
+%\bibliography{References.bib}
+
+
 \makeatletter
 \renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+%\renewcommand{\bibname}{References}
 
 \renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
 \begin{flushright} % Right align
@@ -67,7 +76,6 @@ Imara Speek} % Author
 %\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
 
 \begin{abstract}
-Morbi tempor congue porta. Proin semper, leo vitae faucibus dictum, metus mauris lacinia lorem, ac congue leo felis eu turpis. Sed nec nunc pellentesque, gravida eros at, porttitor ipsum. Praesent consequat urna a lacus lobortis ultrices eget ac metus. In tempus hendrerit rhoncus. Mauris dignissim turpis id sollicitudin lacinia. Praesent libero tellus, fringilla nec ullamcorper at, ultrices id nulla. Phasellus placerat a tellus a malesuada.
 \end{abstract}
 
 \hspace*{3,6mm}\textit{Keywords:} Wireless power transfer, low power, real-world application % Keywords
@@ -148,6 +156,10 @@ Morbi tempor congue porta. Proin semper, leo vitae faucibus dictum, metus mauris
 % Some schematics of the set up
 % source code or pseudo code whether or not that is necessary
 
+\subsection{Analysis of the system design}
+\label{sec:analysis}
+\input{analysis}
+
 \subsection{The internet of things}
 \label{sec:internet}
 \input{internet}
@@ -192,8 +204,8 @@ Morbi tempor congue porta. Proin semper, leo vitae faucibus dictum, metus mauris
 %----------------------------------------------------------------------------------------
 
 \bibliographystyle{plain}
-
 \bibliography{References}
+%\printbibliography[title=References]
 
 %----------------------------------------------------------------------------------------
 

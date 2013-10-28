@@ -9,30 +9,3 @@
 The Figure %~\ref{fig:design} shows the proposed design of the system. The system includes a transmitter and a receiver with transmission and receiving coil respectively. The wireless power transmission works on the principle of magnetic induction \cite{IAmp}.
 The transmitter is powered up by a voltage source $V_i$ of 12 Volts capable of delivering 400 milli-Amps of $i_{in}$ current. $i_c$ is the constant current that is consumed by the transmitter circuitry and $i_s$ is the induction current which flows through the transmitter coil such that $i_{in} = i_c + i_s$ . $i_c$ is constant and depends on the transmitter inner circuitry power consumption, in our case $i_c = 100 milli-Amps $. $i_s$ depends on the distance between the two magnetically coupled coils, greater the distance smaller the $i_s$ will be. Another factor that $i_s$ could depend is on adding an iron core between the two coils, adding a core makes the magnetic coupling stronger and increases the $i_s$ which enhances an overall efficiency of the system.
 The receiver circuit receives an induction voltage $V_r$, rectifies it through a rectifier containing a shotkey diode $D_r$ and a capacitor $C_r$. A shotkey diode is used in order to have a good frequency response at the range of $ 300-400 Khz$ the transmitter working frequency also shotkey has lower forward voltage drop. The rectified voltage is then fed to the voltage regulator that produces constant voltage $V_{reg} = 5 Volts$ .
-
-% graded for: complete code/schematics of the developed project
-% code well documented and structures
-% choices of used software, procedure and/or hardware well justified
-
-% How we came to this design, including some references
-% What we focussed on, which results do we want to achieve
-% why we choose for these solutions, justify software, procedure and hardware
-% Some schematics of the set up
-% source code or pseudo code whether or not that is necessary
-\subsection{Analysis}
-\label{sec:analysis}
-%\begin{figure}[!h]
-%\begin{center}
-%\includegraphics[scale=0.50]{AD624.eps}
-%\caption{Block Diagram of the instrumentation amplifier AD624.
-%\end{center}
-%\label{fig:rec_design}
-%\end{figure}
-% split the figure into charge cycle and discharge cycle
-The Figure %~\ref{fig:rec_design} 
-shows a low level schematic of the receiver and charging circuit which will be the main focus of our project. The induction current $i_r$ induced by the transmitter through magnetic coupling will be the main source of charging current. The current $i_c$ charges the super capacitor, $i_b$ charges the battery and $i_L$ is consumed by the load including resistor $R_L$ and a light source. During the charge cycle $i_r = i_c + i_b +i_L$ . Now in analysis lets first consider the efficiency ${\eta}$ of the circuit.
-If $P_{o}$ is the power consumed by the receiver and $P_{i}$ is the power provided by the transmitter, ignoring small power drops across $D_r$ and $C_r$  then:
-\begin{equation}\label{eq:effb}
- {\eta} = \frac{P_o}{P_i}
-\end{equation}
-where $P_o = V_{reg} \times i_r $ and $P_i = V_i \times i_s $

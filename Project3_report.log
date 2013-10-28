@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  27 OCT 2013 23:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.17)  28 OCT 2013 11:42
 entering extended mode
 **S:/School/Internet*of*Things/iot/Project3_report.tex
 ("S:/School/Internet of Things/iot/Project3_report.tex"
@@ -399,20 +399,20 @@ File: listings.cfg 2013/06/27 1.5pre1 listings configuration
 Package: listings 2013/07/10 1.5 (Carsten Heinz)
 
 ("S:\School\Internet of Things\iot\Project3_report.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -441,7 +441,7 @@ Configuring pdfsync
 **** pdfsync.sty: Synchronizing at \everyvbox
 \PDFSYNCeveryvb@x=\toks34
 **** pdfsync.sty: started
-LaTeX Info: Redefining \microtypecontext on input line 59.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `all'.
@@ -455,7 +455,7 @@ Package microtype Info: No adjustment of character kerning.
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/10.95'. Switching off
-(microtype)                protrusion for this font on input line 59.
+(microtype)                protrusion for this font on input line 68.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -463,10 +463,10 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 59.
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+Package hyperref Info: Link coloring OFF on input line 68.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 ("S:\School\Internet of Things\iot\Project3_report.out")
 ("S:\School\Internet of Things\iot\Project3_report.out")
 \@outlinefile=\write4
@@ -475,52 +475,52 @@ LaTeX Info: Redefining \nameref on input line 59.
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/17.28'. Switching off
-(microtype)                protrusion for this font on input line 61.
+(microtype)                protrusion for this font on input line 70.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/17.28'. Switching off
-(microtype)                protrusion for this font on input line 61.
+(microtype)                protrusion for this font on input line 70.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 61.
+(microtype)                protrusion for this font on input line 70.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/sc/12'. Switching off
-(microtype)                protrusion for this font on input line 61.
+(microtype)                protrusion for this font on input line 70.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/it/12'. Switching off
-(microtype)                protrusion for this font on input line 61.
+(microtype)                protrusion for this font on input line 70.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/10'. Switching off
-(microtype)                protrusion for this font on input line 69.
+(microtype)                protrusion for this font on input line 78.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/10'. Switching off
-(microtype)                protrusion for this font on input line 69.
+(microtype)                protrusion for this font on input line 78.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/it/10.95'. Switching off
-(microtype)                protrusion for this font on input line 73.
+(microtype)                protrusion for this font on input line 81.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/m/n/14.4'. Switching off
-(microtype)                protrusion for this font on input line 81.
+(microtype)                protrusion for this font on input line 89.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/14.4'. Switching off
-(microtype)                protrusion for this font on input line 81.
+(microtype)                protrusion for this font on input line 89.
 
 ("S:\School\Internet of Things\iot\intro.tex")
 ("S:\School\Internet of Things\iot\related.tex")
@@ -529,21 +529,13 @@ Package microtype Warning: I cannot find a protrusion list for font
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT1/cmr/bx/n/12'. Switching off
-(microtype)                protrusion for this font on input line 122.
+(microtype)                protrusion for this font on input line 130.
 
 ("S:\School\Internet of Things\iot\realize.tex" [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `OT1/cmr/bx/n/10.95'. Switching off
-(microtype)                protrusion for this font on input line 5.
-
-
-LaTeX Warning: Citation `IAmp' on page 2 undefined on input line 5.
-
-) ("S:\School\Internet of Things\iot\proto.tex"
-<images/statediagram.pdf, id=61, 305.05971pt x 314.26408pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]) ("S:\School\Internet of 
+Things\iot\proto.tex"
+<images/statediagram.pdf, id=62, 305.05971pt x 314.26408pt>
 File: images/statediagram.pdf Graphic file (type pdf)
 
 <use images/statediagram.pdf>
@@ -609,37 +601,31 @@ Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OMX/cmex/m/n/6'. Switching off
 (microtype)                protrusion for this font on input line 10.
 
-[3 <S:/School/Internet of Things/iot/images/statediagram.pdf>])
+) [3 <S:/School/Internet of Things/iot/images/statediagram.pdf>]
+("S:\School\Internet of Things\iot\analysis.tex")
 ("S:\School\Internet of Things\iot\internet.tex" [4])
 ("S:\School\Internet of Things\iot\results.tex")
 ("S:\School\Internet of Things\iot\conclusion.tex")
-("S:\School\Internet of Things\iot\Project3_report.bbl"
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+("S:\School\Internet of Things\iot\Project3_report.bbl")
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
- ("S:\School\Internet of Things\iot\Project3_report.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+
+("S:\School\Internet of Things\iot\Project3_report.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `Project3_report.out' has not changed.
-(rerunfilecheck)             Checksum: DB75BE9E7F6467C19DBEC653B8F091D4;677.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+(rerunfilecheck)             Checksum: 074E499760E591DCCE00FB0CF7AC24BC;698.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 9914 strings out of 494045
- 146809 string characters out of 3148387
- 266190 words of memory out of 3000000
- 12922 multiletter control sequences out of 15000+200000
- 15045 words of font info for 100 fonts, out of 3000000 for 9000
+ 9924 strings out of 494045
+ 146978 string characters out of 3148387
+ 266160 words of memory out of 3000000
+ 12929 multiletter control sequences out of 15000+200000
+ 14566 words of font info for 96 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 41i,18n,38p,868b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,18n,38p,868b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -649,9 +635,9 @@ e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Project3_report.pdf (5 pages, 860399 bytes).
+Output written on Project3_report.pdf (5 pages, 864128 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 49246 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 47198 words of extra memory for PDF output out of 51595 (max. 10000000)
 

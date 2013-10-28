@@ -21,5 +21,55 @@ You're missing a field name---line 46 of file References.bib
  : %    %author    = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "IAmp"
-(There were 4 error messages)
+You're missing a field name---line 54 of file References.bib
+ : 
+ : % %author = {Doe, Ringo},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+"}" immediately follows an entry type---line 55 of file References.bib
+ : % %title = {This is a test entry of type {@ONLINE
+ :                                                  }},
+I'm skipping whatever remains of this entry
+You're missing a field name---line 66 of file References.bib
+ :     
+ :     %volume   = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "lecture" isn't style-file defined
+--line 74 of file References.bib
+Warning--entry type for "thingmagic" isn't style-file defined
+--line 82 of file References.bib
+Warning--entry type for "sxsw" isn't style-file defined
+--line 90 of file References.bib
+You're missing a field name---line 91 of file References.bib
+ :  
+ :  %author = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "coachella" isn't style-file defined
+--line 98 of file References.bib
+You're missing a field name---line 99 of file References.bib
+ :  
+ :  %author = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "bonnaroo" isn't style-file defined
+--line 106 of file References.bib
+You're missing a field name---line 107 of file References.bib
+ :  
+ :  %author = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 118 of file References.bib
+ :     
+ :     %volume   = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in IAmp
+Warning--to sort, need author or key in sxsw
+Warning--to sort, need author or key in coachella
+Warning--to sort, need author or key in bonnaroo
+Warning--empty author in IAmp
+Warning--empty journal in IAmp
+Warning--empty year in IAmp
+(There were 11 error messages)
