@@ -1,8 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{sxsw}
-
-
 \bibitem{coachella}
 
 
@@ -12,12 +9,25 @@
 \bibitem{IAmp}
 ref still.
 
+\bibitem{paper}
+J.~Pineda de~Gyvez A.~Kapoor.
+\newblock Architectural analysis for wirelessly powered computing platforms.
+\newblock {\em IEEE Transactions on very large scale integration (VLSI)
+  systems}.
+
 \bibitem{lecture}
 Ringo Doe.
 \newblock This is a test entry of type {@ONLINE}, June 2009.
 
+\bibitem{sxsw}
+SXSW.
+\newblock {SXSW RFID Policy}.
+\newblock \url{http://sxsw.com/rfid-policy}.
+
 \bibitem{thingmagic}
 A.~Zauner.
-\newblock On tour with rfid.
+\newblock {On Tour With RFID}.
+\newblock \url{http://rfid.thingmagic.com/rfid-blog/?Tag=RFID%20Wristbands},
+  August 2012.
 
 \end{thebibliography}
