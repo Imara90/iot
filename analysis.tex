@@ -1,13 +1,14 @@
 
-%\begin{figure}[!h]
-%\begin{center}
-%\includegraphics[scale=0.50]{AD624.eps}
-%\caption{Block Diagram of the instrumentation amplifier AD624.
-%\end{center}
-%\label{fig:rec_design}
-%\end{figure}
-% split the figure into charge cycle and discharge cycle
-The Figure %~\ref{fig:rec_design}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{design.pdf}
+\caption{Internet of things chain of actions}
+\label{fig:design1}
+\end{figure}
+
+ split the figure into charge cycle and discharge cycle
+The Figure \ref{fig:design1}
 shows a low level schematic of the receiver and charging circuit which will be the main focus of our project. The induction current $i_r$ induced by the transmitter through magnetic coupling will be the main source of charging current. The current $i_c$ charges the super capacitor $C_s$ up to the capacity of $V_c$, in our case $V_c \leq 5$ Volts the maximum voltage rating of super capacitor, $i_b$ charges the battery and $i_L$ is consumed by the current limiting resistor $R_L$  and a light source $LED$. Where $i_r = i_c + i_b +i_L$ . Now in analysis lets first consider the efficiency ${\eta}$ of the circuit.
 If $P_{o}$ is the power consumed by the receiver and $P_{i}$ is the power provided by the transmitter, ignoring small power drops across $D_r$ and $C_r$  then:
 \begin{equation}\label{eq:effb}
@@ -41,14 +42,13 @@ the super capacitor $C_s$ has very low series resistance of $0.07 \Omega$ compar
 where $R_c$ is the series limiting resistance of receiver circuit whose value depends on the maximum value of $i_r$ and $C$ is the total capacitance of super capacitor which in our case $C_s = 5 $ Farads
 $R_c$ can be chosen using $R_c = \frac { V_{reg}}{i_r} $ for maximum allowed $i_r = 400$ mA which gives us $R_c = 12.5 \Omega$
 
-%\begin{figure}[!h]
-%\begin{center}
-%\includegraphics[scale=0.50]{AD624.eps}
-%\caption{Block Diagram of the instrumentation amplifier AD624.
-%\end{center}
-%\label{fig:ch_profile}
-%\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{rec_design.pdf}
+\caption{Internet of things chain of actions}
+\label{fig:rec_des}
+\end{figure}
 
 
-%Figure \ref{fig:ch_profile}
+Figure \ref{fig:rec_des}
 shows charging, discharging and idle profile of the super capacitor during the system operation. In initial charging cycle $t_{ci}$, $C_s$ is charged using $i_r(t)$ following equation \ref{eq:cap} and during discharge cycle $t_d$, the $i_r(t) = 0$ and discharge current is supplied in the form of $i_b$ and $i_L$. Finally during the equilibrium cycle $t_{eq}$ the voltage is reduced to equal the battery voltage ($V_l = 3$ V) such that no current flows between the battery and super capacitor and $i_b = 0$, at this stage only battery's charge is used to power the LED. At last during the second charge cycle $t_{c2}$, the capacitor's charging starts from equilibrium voltage instead of 0 and is charged to $V_{reg}$ un till the discharge cycle starts again.
