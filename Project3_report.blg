@@ -28,26 +28,21 @@ You're missing a field name---line 60 of file References.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "lecture" isn't style-file defined
 --line 68 of file References.bib
-You're missing a field name---line 88 of file References.bib
- :  
- :  %month    = {August},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--entry type for "coachella" isn't style-file defined
---line 93 of file References.bib
-You're missing a field name---line 94 of file References.bib
+--line 92 of file References.bib
+You're missing a field name---line 93 of file References.bib
  :  
  :  %author = {},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "bonnaroo" isn't style-file defined
---line 101 of file References.bib
-You're missing a field name---line 102 of file References.bib
+--line 100 of file References.bib
+You're missing a field name---line 101 of file References.bib
  :  
  :  %author = {},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 113 of file References.bib
+You're missing a field name---line 112 of file References.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
@@ -59,4 +54,4 @@ Warning--empty author in IAmp
 Warning--empty journal in IAmp
 Warning--empty year in IAmp
 Warning--empty year in paper
-(There were 9 error messages)
+(There were 8 error messages)

@@ -4,7 +4,7 @@ There are certain states in which the system can reside depending on its own bat
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{statediagram.pdf}
+\includegraphics[width=0.8\textwidth]{images/statediagram}
 \caption{State diagram of a transceiving wireless power transfer system}
 \label{fig:states}
 \end{figure}

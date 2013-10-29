@@ -1,0 +1,213 @@
+\documentclass[a4paper, 11pt]{article}
+
+%Handige usepackages voor essays
+%\usepackage[protrusion=true,expansion=true]{microtype}
+%\usepackage{microtype}
+\usepackage{graphicx} % Required for including pictures
+\usepackage{wrapfig} % Allows in-line images
+%\usepackage{mathpazo} % Use the Palatino font
+%\usepackage[T1]{fontenc} % Required for accented characters
+%\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
+
+%Standaard usepackages
+\usepackage{pdfsync}
+\usepackage[english]{babel}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage[table]{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{verbatim}
+\usepackage{eso-pic}
+\usepackage[toc,page]{appendix}
+\usepackage[linkbordercolor={white}]{hyperref}
+\usepackage{nameref}
+\usepackage{listings}
+
+\usepackage{url} % to include references to websites
+\usepackage{hyperref} % website referencing
+
+%\usepackage[style=alpha, backend=bibtex]{biblatex}
+%\bibliography{References.bib}
+
+
+\makeatletter
+\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+%\renewcommand{\bibname}{References}
+
+\renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
+\begin{flushright} % Right align
+{\LARGE\@title} % Increase the font size of the title
+
+\vspace{50pt} % Some vertical space between the title and author name
+
+{\large\@author} % Author name 1
+\\\@date % Date
+
+
+\vspace{40pt} % Some vertical space between the author block and abstract
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+%  TITLE
+%----------------------------------------------------------------------------------------
+
+\title{\textbf{Internet of Things }\\ % Title
+Developing an optimal wireless power transfer system for a real-world low power LED wristband application} % Subtitle
+
+\author{\textsc{Muhammad Wasif \\ 
+Imara Speek} % Author
+\\{\textit{Delft University of Technology}}} % Institution
+
+\date{\today} % Date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+%----------------------------------------------------------------------------------------
+%  ABSTRACT AND KEYWORDS
+%----------------------------------------------------------------------------------------
+
+%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+
+\begin{abstract}
+\end{abstract}
+
+\hspace*{3,6mm}\textit{Keywords:} Wireless power transfer, low power, real-world application % Keywords
+
+\vspace{30pt} % Some vertical space between the abstract and first section
+
+%----------------------------------------------------------------------------------------
+%  ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+\label{sec:intro}
+\input{intro}
+
+% introduction to what wireless power transfer solves --> an ideal world 
+% how can this be achieved 
+% how can it be used right now, in a real world example
+% how are we contributing to this example
+
+%------------------------------------------------
+
+\section{Related work}
+\label{sec:related}
+\input{related}
+
+% Firstly present the assigned project paper
+% introduction to our idea evaluation
+% why this idea and why not something else (how is it different)
+
+%------------------------------------------------
+
+\section{Prior knowledge}
+\label{sec:prior}
+\input{prior}
+
+% an introduction to wireless energy transfer, show some images
+% something about quick charging and long battery life is often done
+% How longer distances can be achieved in charging (hint that this is not possible with our project)
+
+%-----------------------------------------------
+
+\section{Description of the proposed idea} 
+\label{sec:idea}
+\input{idea}
+% graded on very innovative idea,
+% clear application 
+% startup-based idea
+
+% short introduction to the scenario
+% how does this include the priorly introduced paper
+
+\subsection{Working towards a realization}
+\label{sec:realize}
+\input{realize}
+% what are our goals --> quick charging and long battery life,a final product, IoT element and some protocols and computing policies 
+% how will we achieve these goals --> decribe the set-up of the experiment
+% tip of the iceberg, include some formulas
+
+\subsection{Protocols concerning environmental impact features}
+\label{sec:proto}
+\input{proto}
+% an introduction to what we need to take into account when designing for this real-world example
+% include the state diagram 
+% present Internet of Things ness
+
+%-----------------------------------------------
+
+\section{The proposed system design} 
+\label{sec:proposed}
+\input{proposed}
+% graded for: complete code/schematics of the developed project
+% code well documented and structures
+% choices of used software, procedure and/or hardware well justified
+
+% How we came to this design, including some references
+% What we focussed on, which results do we want to achieve
+% why we choose for these solutions, justify software, procedure and hardware
+% Some schematics of the set up
+% source code or pseudo code whether or not that is necessary
+
+\subsection{Analysis of the system design}
+\label{sec:analysis}
+\input{analysis}
+
+\subsection{The internet of things}
+\label{sec:internet}
+\input{internet}
+% presentation about the IoT
+% how should the protocols be included
+% schematic of the internet of things
+
+%----------------------------------------------
+
+\section{Results}
+\label{sec:result}
+\input{results}
+% graded for a working demonstrator and fully operating system
+% idea evaluated against state of the art solutions
+% clear described methodology of experiment
+% good handling of the results
+
+% introduction to set up measurements 
+% why this set up, why these measurements
+% evaluation of model against state-of-the art
+% nice graphical representations of results
+% some details about charging time, performance, battery life
+% critical analysis of experiments and how this impacts our project
+
+%----------------------------------------------
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{conclusion}
+% graded on: concise summary using measurable units
+% gives prospects for further evaluation
+% enlist surprising/non-trivial lessons learned
+
+% a concluding paragraph about everything that we did
+% A critical analysis of our project and its feasibility
+% a critical analysis on our results
+% surprising lessons learned
+% some future guidelines
+
+%----------------------------------------------------------------------------------------
+%  BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%TODO add references to websites. 
+\bibliographystyle{plain}
+\bibliography{References}
+%\printbibliography[title=References]
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
