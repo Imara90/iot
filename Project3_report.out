@@ -1,12 +1,14 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Related work}{}% 2
-\BOOKMARK [1][-]{section.3}{Prior knowledge}{}% 3
-\BOOKMARK [1][-]{section.4}{Description of the proposed idea}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Working towards a realization}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Protocols concerning environmental impact features}{section.4}% 6
-\BOOKMARK [1][-]{section.5}{The proposed system design}{}% 7
-\BOOKMARK [2][-]{subsection.5.1}{Analysis of the system design}{section.5}% 8
-\BOOKMARK [2][-]{subsection.5.2}{Charge to Discharge ratio}{section.5}% 9
-\BOOKMARK [2][-]{subsection.5.3}{The internet of things}{section.5}% 10
-\BOOKMARK [1][-]{section.6}{Results}{}% 11
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 12
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{Related work}{}
+\BOOKMARK [1][-]{section.3}{Prior knowledge}{}
+\BOOKMARK [1][-]{section.4}{Description of the proposed idea}{}
+\BOOKMARK [2][-]{subsection.4.1}{Initial proposal of our wireless transfer system}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Protocols concerning environmental impact features}{section.4}
+\BOOKMARK [1][-]{section.5}{Analysis of the system design}{}
+\BOOKMARK [2][-]{subsubsection.5.0.1}{Battery Life}{section.5}
+\BOOKMARK [3][-]{subsubsection.5.0.2}{Charging Profile}{subsubsection.5.0.1}
+\BOOKMARK [3][-]{subsubsection.5.0.3}{Charge to Discharge ratio}{subsubsection.5.0.1}
+\BOOKMARK [1][-]{section.6}{The proposed system design}{}
+\BOOKMARK [2][-]{subsection.6.1}{The internet of things}{section.6}
+\BOOKMARK [1][-]{section.7}{Results}{}
+\BOOKMARK [1][-]{section.8}{Conclusion}{}
