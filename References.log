@@ -1,0 +1,14 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2013.4.13)  9 NOV 2013 14:58
+entering extended mode
+**S:/School/Internet*of*Things/iot/References.bib
+("S:/School/Internet of Things/iot/References.bib"
+! Undefined control sequence.
+l.81 	howpublished	= "\url
+                          {http://rfid.thingmagic.com/rfid-blog}",
+? 
+! Emergency stop.
+l.81 	howpublished	= "\url
+                          {http://rfid.thingmagic.com/rfid-blog}",
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
