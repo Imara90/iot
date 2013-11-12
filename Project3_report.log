@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  12 NOV 2013 14:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  12 NOV 2013 17:25
 entering extended mode
  %&-line parsing enabled.
 **Project3_report.tex
@@ -422,115 +422,138 @@ LaTeX Info: Redefining \pageref on input line 68.
 
 \AtBeginShipoutBox=\box34
 \c@lstlisting=\count133
- (./intro.tex) (./related.tex) (./prior.tex) (./idea.tex) (./scenario.tex [1
+ (./intro.tex) (./related.tex) (./prior.tex) (./idea.tex) (./scenario.tex
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./realize.tex
+pdfTeX warning: /usr/bin/pdflatex (file ./usecase.pdf): PDF inclusion: found PD
+F version <1.5>, but at most version <1.4> allowed
+<usecase.pdf, id=88, 422.34589pt x 297.86484pt>
+File: usecase.pdf Graphic file (type pdf)
+ <use usecase.pdf> [1
 
-pdfTeX warning: /usr/bin/pdflatex (file ./design.pdf): PDF inclusion: found PDF
- version <1.5>, but at most version <1.4> allowed
-<design.pdf, id=102, 395.67122pt x 106.69763pt>
-File: design.pdf Graphic file (type pdf)
- <use design.pdf>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./sequenceshow.pdf): PDF inclusion: fou
+nd PDF version <1.5>, but at most version <1.4> allowed
+<sequenceshow.pdf, id=105, 253.40674pt x 231.17868pt>
+File: sequenceshow.pdf Graphic file (type pdf)
+ <use sequenceshow.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<wirelessset.jpg, id=109, 2569.6pt x 1445.4pt>
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./sequencecharge.pdf): PDF inclusion: f
+ound PDF version <1.5>, but at most version <1.4> allowed
+<sequencecharge.pdf, id=106, 342.32191pt x 248.96112pt>
+File: sequencecharge.pdf Graphic file (type pdf)
+
+<use sequencecharge.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./sequenceinternet.pdf): PDF inclusion:
+ found PDF version <1.5>, but at most version <1.4> allowed
+<sequenceinternet.pdf, id=108, 320.09387pt x 253.40674pt>
+File: sequenceinternet.pdf Graphic file (type pdf)
+
+<use sequenceinternet.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./realize.tex [2 <./usecase.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./design.pdf): PDF inclusion: found PDF
+ version <1.5>, but at most version <1.4> allowed
+<design.pdf, id=148, 395.67122pt x 106.69763pt>
+File: design.pdf Graphic file (type pdf)
+ <use design.pdf> [3 <./sequenceshow.pdf> <./sequencecharge.pdf>]
+<wirelessset.jpg, id=213, 2569.6pt x 1445.4pt>
 File: wirelessset.jpg Graphic file (type jpg)
  <use wirelessset.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./realworld.tex) [2] (./state.tex
-<statediagram.pdf, id=127, 305.05971pt x 314.26408pt>
+) (./realworld.tex) (./state.tex [4 <./sequenceinternet.pdf> <./design.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./statediagram.pdf): PDF inclusion: fou
+nd PDF version <1.5>, but at most version <1.4> allowed
+<statediagram.pdf, id=277, 426.7905pt x 228.5609pt>
 File: statediagram.pdf Graphic file (type pdf)
  <use statediagram.pdf>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./proto.tex) (./indesign.tex) [3 <./design.pdf> <./wirelessset.jpg>]
-(./analysis.tex
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+) (./proto.tex [5 <./wirelessset.jpg> <./statediagram.pdf>]) (./indesign.tex) (
+./analysis.tex
 
 pdfTeX warning: /usr/bin/pdflatex (file ./rec_design.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<rec_design.pdf, id=162, 280.0824pt x 106.69862pt>
+<rec_design.pdf, id=310, 280.0824pt x 106.69862pt>
 File: rec_design.pdf Graphic file (type pdf)
- <use rec_design.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <./statediagram.pdf>]) (./batterylife.tex) (./charging.tex
-<cd_cycle.pdf, id=181, 963.6pt x 514.92375pt>
+ <use rec_design.pdf>)
+[6 <./rec_design.pdf>] (./batterylife.tex) (./charging.tex
+<cd_cycle.pdf, id=348, 963.6pt x 514.92375pt>
 File: cd_cycle.pdf Graphic file (type pdf)
- <use cd_cycle.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [5 <./rec_design.pdf>] (./chargedischarge.tex
+ <use cd_cycle.pdf>) [7 <./cd_cycle.pdf>] (./chargedischarge.tex
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ctd2.pdf): PDF inclusion: found PDF v
 ersion <1.6>, but at most version <1.4> allowed
-<ctd2.pdf, id=222, 414.04688pt x 338.76563pt>
+<ctd2.pdf, id=383, 414.04688pt x 338.76563pt>
 File: ctd2.pdf Graphic file (type pdf)
- <use ctd2.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+ <use ctd2.pdf> [8 <./ctd2.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ctd2c.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.4> allowed
-<ctd2c.pdf, id=228, 421.575pt x 316.18124pt>
+<ctd2c.pdf, id=399, 421.575pt x 316.18124pt>
 File: ctd2c.pdf Graphic file (type pdf)
- <use ctd2c.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./cd_cycle.pdf>]) (./proposed.tex) [7 <./ctd2.pdf>] (./internet.tex
-[8 <./ctd2c.pdf>]
+ <use ctd2c.pdf>) (./proposed.tex
+[9 <./ctd2c.pdf>]) (./internet.tex
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IoT.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<IoT.pdf, id=291, 542.025pt x 126.4725pt>
+<IoT.pdf, id=421, 542.025pt x 126.4725pt>
 File: IoT.pdf Graphic file (type pdf)
- <use IoT.pdf>) (./welight.tex)
-(./results.tex) (./conclusion.tex) (./future.tex) (./Project3_report.bbl
+ <use IoT.pdf> [10 <./IoT.pdf>])
+(./welight.tex) (./results.tex) (./conclusion.tex) (./future.tex)
+(./Project3_report.bbl
 Underfull \hbox (badness 1348) in paragraph at lines 10--14
 [][][]\OT1/cmr/m/n/10 Engineeringshock Elec-tron-ics.  Wire-less power trans-mi
 t-ter and re-ceiver set.  []$[][]\OT1/cmtt/m/n/10 http : / / www .
  []
 
-[9 <./IoT.pdf>]) [10] (./Project3_report.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) [11] (./Project3_report.aux) ) 
 Here is how much of TeX's memory you used:
- 8257 strings out of 495061
- 118922 string characters out of 1182621
- 214918 words of memory out of 3000000
- 11189 multiletter control sequences out of 15000+50000
+ 8303 strings out of 495061
+ 119753 string characters out of 1182621
+ 212918 words of memory out of 3000000
+ 11223 multiletter control sequences out of 15000+50000
  7987 words of font info for 29 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 41i,18n,38p,1086b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Project3_report.pdf (10 pages, 3826440 bytes).
+ 41i,19n,38p,1086b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Project3_report.pdf (11 pages, 4386874 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 622 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
