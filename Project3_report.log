@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  12 NOV 2013 10:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  12 NOV 2013 11:04
 entering extended mode
  %&-line parsing enabled.
 **Project3_report.tex
@@ -423,103 +423,200 @@ LaTeX Info: Redefining \pageref on input line 68.
 \AtBeginShipoutBox=\box34
 \c@lstlisting=\count133
  (./intro.tex) (./related.tex) (./prior.tex) (./idea.tex) (./scenario.tex) (./r
-ealize.tex [1
+ealize.tex
+
+LaTeX Warning: Citation `superbattery' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation `IAmp' on page 1 undefined on input line 8.
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./design.pdf): PDF inclusion: found PDF
  version <1.5>, but at most version <1.4> allowed
-<design.pdf, id=85, 395.67122pt x 106.69763pt>
+<design.pdf, id=21, 395.67122pt x 106.69763pt>
 File: design.pdf Graphic file (type pdf)
  <use design.pdf>
-<wirelessset.jpg, id=92, 2569.6pt x 1445.4pt>
+
+LaTeX Warning: Citation `paper' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Citation `wireless' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Citation `wireless' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:result' on page 2 undefined on input line 25.
+
+<wirelessset.jpg, id=24, 2569.6pt x 1445.4pt>
 File: wirelessset.jpg Graphic file (type jpg)
  <use wirelessset.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./realworld.tex) (./state.tex) (./proto.tex [2 <./design.pdf>]
-<statediagram.pdf, id=135, 305.05971pt x 314.26408pt>
+) (./realworld.tex) (./state.tex) (./proto.tex
+
+LaTeX Warning: Reference `sec:proposed' on page 2 undefined on input line 1.
+
+[2 <./design.pdf>] <statediagram.pdf, id=65, 305.05971pt x 314.26408pt>
 File: statediagram.pdf Graphic file (type pdf)
- <use statediagram.pdf>
-[3 <./wirelessset.jpg>]) (./analysis.tex
+
+<use statediagram.pdf> [3 <./wirelessset.jpg>]) (./indesign.tex)
+(./analysis.tex
+
+LaTeX Warning: Reference `sec:charging' on page 4 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:chargedischarge' on page 4 undefined on input lin
+e 4.
+
+
 
 pdfTeX warning: /usr/bin/pdflatex (file ./rec_design.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<rec_design.pdf, id=145, 280.0824pt x 106.69862pt>
+<rec_design.pdf, id=73, 280.0824pt x 106.69862pt>
 File: rec_design.pdf Graphic file (type pdf)
  <use rec_design.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./statediagram.pdf>]) (./batterylife.tex) (./charging.tex
-<cd_cycle.pdf, id=163, 963.6pt x 514.92375pt>
+[4 <./statediagram.pdf>]
+
+LaTeX Warning: Citation `IAmp' on page 5 undefined on input line 20.
+
+) (./batterylife.tex) (./charging.tex [5 <./rec_design.pdf>]
+<cd_cycle.pdf, id=132, 963.6pt x 514.92375pt>
 File: cd_cycle.pdf Graphic file (type pdf)
  <use cd_cycle.pdf>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `fig:ch_profile' on page 6 undefined on input line 17.
 
-) [5 <./rec_design.pdf>] (./chargedischarge.tex
+
+
+LaTeX Warning: Reference `eq:cap' on page 6 undefined on input line 17.
+
+) (./chargedischarge.tex
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ctd2.pdf): PDF inclusion: found PDF v
 ersion <1.6>, but at most version <1.4> allowed
-<ctd2.pdf, id=204, 414.04688pt x 338.76563pt>
+<ctd2.pdf, id=133, 414.04688pt x 338.76563pt>
 File: ctd2.pdf Graphic file (type pdf)
  <use ctd2.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Reference `fig:ch_profile' on page 6 undefined on input line 19.
+
+
+
+LaTeX Warning: Reference `fig:crs' on page 6 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:crs' on page 6 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq:ir' on page 6 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:crs' on page 6 undefined on input line 24.
+
 [6 <./cd_cycle.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ctd2c.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.4> allowed
-<ctd2c.pdf, id=240, 421.575pt x 316.18124pt>
+<ctd2c.pdf, id=164, 421.575pt x 316.18124pt>
 File: ctd2c.pdf Graphic file (type pdf)
  <use ctd2c.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./proposed.tex [7 <./ctd2.pdf>]) (./internet.tex [8 <./ctd2c.pdf>]
+
+LaTeX Warning: Reference `fig:crconst' on page 7 undefined on input line 33.
+
+) (./proposed.tex
+
+LaTeX Warning: Citation `IAmp' on page 7 undefined on input line 1.
+
+[7 <./ctd2.pdf>]) (./internet.tex
+
+LaTeX Warning: Citation `paper' on page 8 undefined on input line 2.
+
+
+LaTeX Warning: Citation `lecture' on page 8 undefined on input line 5.
+
+
+LaTeX Warning: Citation `lecture' on page 8 undefined on input line 9.
+
+
+LaTeX Warning: Citation `thingmagic' on page 8 undefined on input line 16.
+
+
+LaTeX Warning: Citation `sxsw' on page 8 undefined on input line 17.
+
+
+LaTeX Warning: Citation `coachella' on page 8 undefined on input line 18.
+
+
+LaTeX Warning: Citation `bonnaroo' on page 8 undefined on input line 18.
+
+
+LaTeX Warning: Citation `thingmagic' on page 8 undefined on input line 19.
+
+[8 <./ctd2c.pdf>]
+
+LaTeX Warning: Reference `fig:iot' on page 9 undefined on input line 30.
+
+
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IoT.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<IoT.pdf, id=274, 542.025pt x 126.4725pt>
+<IoT.pdf, id=185, 542.025pt x 126.4725pt>
 File: IoT.pdf Graphic file (type pdf)
- <use IoT.pdf>) (./results.tex)
-(./conclusion.tex) (./Project3_report.bbl
+ <use IoT.pdf>) (./welight.tex)
+(./results.tex) (./conclusion.tex) (./Project3_report.bbl
 Underfull \hbox (badness 1348) in paragraph at lines 10--14
 [][][]\OT1/cmr/m/n/10 Engineeringshock Elec-tron-ics.  Wire-less power trans-mi
 t-ter and re-ceiver set.  []$[][]\OT1/cmtt/m/n/10 http : / / www .
  []
 
-[9 <./IoT.pdf>]) [10] (./Project3_report.aux) ) 
+[9 <./IoT.pdf>]) [10] (./Project3_report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 8239 strings out of 495061
- 118708 string characters out of 1182621
- 215918 words of memory out of 3000000
- 11183 multiletter control sequences out of 15000+50000
+ 8231 strings out of 495061
+ 118585 string characters out of 1182621
+ 214918 words of memory out of 3000000
+ 11167 multiletter control sequences out of 15000+50000
  7987 words of font info for 29 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  41i,18n,38p,1086b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mtt10.pfb>
-Output written on Project3_report.pdf (10 pages, 3819608 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Project3_report.pdf (10 pages, 3812846 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
