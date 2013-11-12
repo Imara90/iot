@@ -1,14 +1,5 @@
 % Another state, V full, V full enough, V starving and V dead.
 
-The major goal of this report is to be able to develop a real-world application. In order to do this, all real-world implications need to be taken into consideration. There are certain states in which the system can reside depending on its own battery state, the battery state of neighbour nodes and the availability of a charging bar. These states and their transmissions are displayer in figure \ref{fig:states}. It can either be sufficiently full defined as $V_{full}$, starving defined as $V_{starve}$ or dead which is defined by $V_{dead}$. These parameters are further specified in section \ref{sec:proposed}.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.8\textwidth]{statediagram.pdf}
-\caption{State diagram of a transceiving wireless power transfer system}
-\label{fig:states}
-\end{figure}
-
 A charging protocol has to be designed to account for these combinations. We considered three possibilities: an infinite network like design, a hop-to-hop spread of energy or an interactive behavior to selectively share energy. To stimulate interaction through this application we choose to apply a scenario where a user can choose to act upon energy requests and share with friends, or strangers.
 % add reason why we choose this protocol
 
