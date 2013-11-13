@@ -6,6 +6,11 @@ J.~Pineda de~Gyvez A.~Kapoor.
 \newblock {\em IEEE Transactions on very large scale integration (VLSI)
   systems}.
 
+\bibitem{promini}
+Arduino.
+\newblock Arduino pro mini.
+\newblock \url{http://www.arduino.cc/en/Guide/ArduinoProMini}, November 2013.
+
 \bibitem{wireless}
 Engineeringshock Electronics.
 \newblock Wireless power transmitter and receiver set.

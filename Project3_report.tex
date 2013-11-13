@@ -24,6 +24,25 @@
 \usepackage[linkbordercolor={white}]{hyperref}
 \usepackage{nameref}
 \usepackage{listings}
+\usepackage{color}
+
+\definecolor{mymauve}{rgb}{0.58, 0, 0.82}
+
+\lstset{
+	%backgroundcolor=\color{white},
+	%commentstyle=\color{mymauve}
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=lr,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
 
 \usepackage{url} % to include references to websites
 \usepackage{hyperref} % website referencing
@@ -139,7 +158,7 @@ Imara Speek 1506374} % Author
 % tip of the iceberg, include some formulas
 
 \subsection{State analysis}
-\label{sec:state}
+\label{sec:states}
 \input{state}
 % show and explain the state diagrams
 
