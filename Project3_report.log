@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  14 NOV 2013 15:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  14 NOV 2013 16:38
 entering extended mode
  %&-line parsing enabled.
 **Project3_report.tex
@@ -428,7 +428,18 @@ LaTeX Info: Redefining \pageref on input line 89.
 
 \AtBeginShipoutBox=\box34
 \c@lstlisting=\count133
- (./intro.tex) (./related.tex [1
+ (./intro.tex
+
+LaTeX Warning: Citation `paper' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation `drome' on page 1 undefined on input line 9.
+
+) (./related.tex
+
+LaTeX Warning: Citation `paper' on page 1 undefined on input line 2.
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./prior.tex
 Missing character: There is no â in font cmr10!
@@ -442,11 +453,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--15
 
  []
 
+
+LaTeX Warning: Citation `superbattery' on page 2 undefined on input line 16.
+
 ) (./idea.tex) (./scenario.tex
 
 pdfTeX warning: /usr/bin/pdflatex (file ./usecase.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<usecase.pdf, id=109, 422.34589pt x 297.86484pt>
+<usecase.pdf, id=104, 422.34589pt x 297.86484pt>
 File: usecase.pdf Graphic file (type pdf)
  <use usecase.pdf>
 
@@ -456,7 +470,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./sequenceshow.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<sequenceshow.pdf, id=112, 253.40674pt x 231.17868pt>
+<sequenceshow.pdf, id=107, 253.40674pt x 231.17868pt>
 File: sequenceshow.pdf Graphic file (type pdf)
  <use sequenceshow.pdf>
 
@@ -466,7 +480,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./sequencecharge.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<sequencecharge.pdf, id=125, 342.32191pt x 248.96112pt>
+<sequencecharge.pdf, id=118, 342.32191pt x 248.96112pt>
 File: sequencecharge.pdf Graphic file (type pdf)
 
 <use sequencecharge.pdf>
@@ -477,18 +491,34 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./sequenceinternet.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<sequenceinternet.pdf, id=127, 320.09387pt x 253.40674pt>
+<sequenceinternet.pdf, id=120, 320.09387pt x 253.40674pt>
 File: sequenceinternet.pdf Graphic file (type pdf)
 
 <use sequenceinternet.pdf>) [3 <./usecase.pdf> <./sequenceshow.pdf>]
-(./realize.tex [4 <./sequencecharge.pdf> <./sequenceinternet.pdf>]
+(./realize.tex
+
+LaTeX Warning: Citation `superbattery' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Citation `IAmp' on page 4 undefined on input line 8.
+
+[4 <./sequencecharge.pdf> <./sequenceinternet.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./design.pdf): PDF inclusion: found PDF
  version <1.5>, but at most version <1.4> allowed
-<design.pdf, id=245, 395.67122pt x 106.69763pt>
+<design.pdf, id=236, 395.67122pt x 106.69763pt>
 File: design.pdf Graphic file (type pdf)
  <use design.pdf>
-<wirelessset.jpg, id=252, 2569.6pt x 1445.4pt>
+
+LaTeX Warning: Citation `paper' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `wireless' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `wireless' on page 5 undefined on input line 25.
+
+<wirelessset.jpg, id=240, 2569.6pt x 1445.4pt>
 File: wirelessset.jpg Graphic file (type jpg)
  <use wirelessset.jpg>
 
@@ -498,7 +528,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./statediagram.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<statediagram.pdf, id=255, 426.7905pt x 228.5609pt>
+<statediagram.pdf, id=243, 426.7905pt x 228.5609pt>
 File: statediagram.pdf Graphic file (type pdf)
  <use statediagram.pdf>
 
@@ -513,76 +543,111 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 )
 (./proto.tex [6 <./wirelessset.jpg> <./statediagram.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
- []
+LaTeX Warning: Citation `promini' on page 7 undefined on input line 4.
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 8.
-(./ICiot/pseudo/pseudo.ino
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 7.
- [7]) [8]) (./indesign.tex) (./analysis.tex
+) (./analysis.tex
 
 pdfTeX warning: /usr/bin/pdflatex (file ./rec_design.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<rec_design.pdf, id=461, 280.0824pt x 106.69862pt>
+<rec_design.pdf, id=314, 280.0824pt x 106.69862pt>
 File: rec_design.pdf Graphic file (type pdf)
- <use rec_design.pdf>)
-(./batterylife.tex [9 <./rec_design.pdf>]) (./charging.tex
-<cd_cycle.pdf, id=500, 963.6pt x 514.92375pt>
+ <use rec_design.pdf>
+
+LaTeX Warning: Citation `IAmp' on page 7 undefined on input line 21.
+
+) [7 <./rec_design.pdf>] (./batterylife.tex) (./charging.tex
+<cd_cycle.pdf, id=353, 963.6pt x 514.92375pt>
 File: cd_cycle.pdf Graphic file (type pdf)
- <use cd_cycle.pdf>)
-(./chargedischarge.tex [10 <./cd_cycle.pdf>]
+ <use cd_cycle.pdf>) [8 <./cd_cycle.pdf>] (./chargedischarge.tex
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ctd2.pdf): PDF inclusion: found PDF v
 ersion <1.6>, but at most version <1.4> allowed
-<ctd2.pdf, id=534, 414.04688pt x 338.76563pt>
+<ctd2.pdf, id=388, 414.04688pt x 338.76563pt>
 File: ctd2.pdf Graphic file (type pdf)
- <use ctd2.pdf> [11 <./ctd2.pdf>]
+ <use ctd2.pdf> [9 <./ctd2.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ctd2c.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.4> allowed
-<ctd2c.pdf, id=551, 421.575pt x 316.18124pt>
+<ctd2c.pdf, id=403, 421.575pt x 316.18124pt>
 File: ctd2c.pdf Graphic file (type pdf)
- <use ctd2c.pdf>) (./proposed.tex)
-(./internet.tex [12 <./ctd2c.pdf>]
+ <use ctd2c.pdf>) (./proposed.tex
+
+LaTeX Warning: Citation `IAmp' on page 10 undefined on input line 1.
+
+) [10 <./ctd2c.pdf>] (./internet.tex
+
+LaTeX Warning: Citation `paper' on page 11 undefined on input line 2.
+
+
+LaTeX Warning: Citation `lecture' on page 11 undefined on input line 5.
+
+
+LaTeX Warning: Citation `lecture' on page 11 undefined on input line 9.
+
+
+LaTeX Warning: Citation `thingmagic' on page 11 undefined on input line 16.
+
+
+LaTeX Warning: Citation `sxsw' on page 11 undefined on input line 17.
+
+
+LaTeX Warning: Citation `coachella' on page 11 undefined on input line 18.
+
+
+LaTeX Warning: Citation `bonnaroo' on page 11 undefined on input line 18.
+
+
+LaTeX Warning: Citation `thingmagic' on page 11 undefined on input line 19.
+
+
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IoT.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<IoT.pdf, id=572, 542.025pt x 126.4725pt>
+<IoT.pdf, id=416, 542.025pt x 126.4725pt>
 File: IoT.pdf Graphic file (type pdf)
- <use IoT.pdf>) [13 <./IoT.pdf>]
-(./welight.tex) (./results.tex) (./conclusion.tex) (./future.tex)
-(./Project3_report.bbl) [14] (./ICiot/ICiot.ino [15] [16] [17]) [18]
-(./Project3_report.aux) ) 
+ <use IoT.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./welight.tex) [11] (./results.tex) (./conclusion.tex) (./future.tex)
+No file Project3_report.bbl.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 272.
+(./ICiot/ICiot.ino
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 7.
+ [12 <./IoT.pdf>] [13] [14]) [15] (./Project3_report.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 8874 strings out of 495061
- 127889 string characters out of 1182621
- 873120 words of memory out of 3000000
- 11439 multiletter control sequences out of 15000+50000
- 8015 words of font info for 30 fonts, out of 3000000 for 9000
+ 8722 strings out of 495061
+ 125668 string characters out of 1182621
+ 848120 words of memory out of 3000000
+ 11435 multiletter control sequences out of 15000+50000
+ 7847 words of font info for 29 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 41i,19n,49p,1689b,1742s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Project3_report.pdf (18 pages, 4477609 bytes).
+ 41i,19n,49p,1689b,1748s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmitt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Project3_report.pdf (15 pages, 4433559 bytes).
 PDF statistics:
- 1078 PDF objects out of 1200 (max. 8388607)
- 405 named destinations out of 1000 (max. 500000)
+ 868 PDF objects out of 1000 (max. 8388607)
+ 267 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
