@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  14 NOV 2013 16:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  14 NOV 2013 17:01
 entering extended mode
  %&-line parsing enabled.
 **Project3_report.tex
@@ -615,9 +615,6 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  8722 strings out of 495061
@@ -642,7 +639,7 @@ m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
 /texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texl
 ive/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Project3_report.pdf (15 pages, 4432994 bytes).
+Output written on Project3_report.pdf (15 pages, 4432965 bytes).
 PDF statistics:
  868 PDF objects out of 1000 (max. 8388607)
  267 named destinations out of 1000 (max. 500000)
