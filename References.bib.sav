@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Citeerstijlen:
+%
+%@book{Xbook,
+%    author    = "",
+%    title     = "",
+%    publisher = "",
+%    %volume   = "",
+%    %number   = "",
+%    %series   = "",
+%    %address  = "",
+%    %edition  = "",
+%    year      = "XXXX",
+%    %month    = "",
+%    %note     = "",
+%}
+%@article{Xarticle,
+%    author    = "",
+%    title     = "",
+%    journal   = "",
+%    %volume   = "",
+%    %number   = "",
+%    %pages    = "",
+%    year      = "XXXX",
+%    %month    = "",
+%    %note     = "",
+%}
+%
+%@conference{Xconference,
+%    author    = "",
+%    title     = "",
+%    booktitle = "",
+%    %editor   = "",
+%    %volume   = "",
+%    %number   = "",
+%    %series   = "",
+%    %pages    = "",
+%    %address  = "",
+%    year      = "XXXX",
+%    %month    = "",
+%    %publisher= "",
+%    %note     = "",
+%}
+%
+%@misc{Xmisc,
+%    %author    = "",
+%    %title     = "",
+%    %howpublished = "",
+%    %year     = "XXXX",
+%    %month    = "",
+%    %note     = "",
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{paper,
+    author    		= "A. Kapoor, J. Pineda de Gyvez",
+    title     		= "Architectural Analysis for Wirelessly Powered Computing Platforms",
+    journal   		= "IEEE Transactions on very large scale integration (VLSI) systems",
+    %volume  		= "",
+    %number  	= "",
+    %pages    	= "",
+    month     		= "October",
+    year      		= "2012",
+    %note     		= "",
+}
+
+@ONLINE{lecture,
+	author 	= {R. Venkatesha Prasad},
+	title 		= {Internet of Things introduction lecture},
+	month 	= {September},
+	year 		= {2013},
+	url 		= {http://www.blackboard.tudelft.nl}
+}
+
+@misc{thingmagic,
+	author 		= "A. Zauner",
+	title 			= "On Tour With RFID",
+	month 		= "August",
+	year 			= "2012",
+	howpublished	= "\url{http://rfid.thingmagic.com/rfid-blog}",
+}
+
+@misc{wireless,
+	author 		= "Engineeringshock Electronics",
+	title 			= "Wireless Power Transmitter and Receiver Set",
+	month 		= "August",
+	year 			= "2013",
+	howpublished	= "\url{http://www.engineeringshock}.com/wireless-power-transfer}",
+}
+
+@misc{sxsw,
+	author 		= "SXSW Festival",
+	title 			= "SXSW RFID Policy",
+	month 		= "August",
+	year 			= "2012",
+	howpublished	= "\url{http://sxsw.com/rfid-policy}",
+}
+
+@misc{coachella,
+	author 		= "Coachella Festival",
+	title 			= "2013 Wristband Registration",
+	month 		= "August",
+	year 			= "2013",
+	howpublished	= "\url{http://www.coachella.com/festival-passes/about-wristbands}",
+}
+
+@misc{bonnaroo,
+	author 		= "Bonnaroo festival",
+	title 			= "Bonnaroo 2013 Wristband Information",
+	month 		= "August",
+	year 			= "2013",
+	howpublished	= "\url{http://www.bonnaroo.com/tickets/wristband-info/}",
+}
+
+@misc{superbattery,
+	author 		= "Battery university",
+	title 			= "The Supercapacitor",
+	month 		= "October",
+	year 			= "2013",
+	howpublished	= "\url{http://batteryuniversity.com/learn/article/whats_the_role_of_the_supercapacitor}",
+}
+
+@misc{IAmp,
+	author 		= "IBT Power",
+	title 			= "Lithium ION technical data",
+	month 		= "October",
+	year 			= "2013",
+	howpublished	= "\url{http://www.ibt-power.com/Battery_packs/Li_Ion/Lithium_ion_tech.html}",
+}
