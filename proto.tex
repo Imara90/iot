@@ -1,11 +1,11 @@
 %
 Charging protocols have to be designed to account for the state translations described in Section \ref{sec:states}. We considered three possible energy charging scenarios: an infinite network like design where all nodes should stay alive, a hop-to-hop spread of energy that uses inter-module detecting or charge requests or an interactive behavior to selectively share energy. To stimulate interaction through this application we choose to apply a scenario where a user can choose to act upon energy requests and share with friends, or strangers. This is the best suiting approach considering the environment of a festival where you can meet new people and can "share the love". 
 
-Based on figure \ref{fig:states} we can determine all the possible state translation and the concurring protocols that are required. In this section we will generate pseudocode for the application that can be translated for an environment that fits the IC. For the IC we decided to choose the \emph{Arduino Pro Mini} \cite{promini}, a flexible small microcontroller for the arduino environment. For the real-world application we can fit the arduino in a relative small wristband.  As the recognitions of the RFID tag that is included in the internet of things part is a passive component of the wristband, it is not included into the code. The actual code that was written for the Arduino Pro Mini can be found in the Appendix of the report. 
+Based on figure \ref{fig:states} we can determine all the possible state translation and the concurring protocols that are required. In this section we will generate code for the application that can be translated for an environment that fits the IC. For the IC we decided to choose the \emph{Arduino Pro Mini} \cite{promini}, a flexible small microcontroller for the arduino environment. For the real-world application we can fit the arduino in a relative small wristband.  As the recognitions of the RFID tag that is included in the internet of things part is a passive component of the wristband, it is not included into the code. The actual code written for the Arduino Pro Mini can be found in the Appendix of the report. 
 
 We choose to work with the arduino mini pro as it is a great microcontroller to prototype with. It allows for several digital, analog and PWM pins and can be programmed using an external programmer. Once the program is finished in the Arduino environment, it can be uploaded using an external serial connector. This allows for easy debugging and iterative prototyping that can be connected with our circuit as it operates on 3.3V.
-\\
-\lstinputlisting{ICiot/pseudo/pseudo.ino}
+%\\
+%\lstinputlisting{ICiot/pseudo/pseudo.ino}
 %\lstinputlisting{pseudo.c}
 
 
