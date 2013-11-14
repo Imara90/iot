@@ -20,33 +20,31 @@ enum StateVariable{
   running, 
   starving, 
   dead  
-};
+} 
+state;
 
 // Map all the V variables to the analog 2^10
-#define Vmap / 5 * 1023;
+#define Vmap / 3.2 * 1023
 // Declaration of Vmax, Vfull, Vstarving and Vdead
 // Varies between 0 and 5 V, but should map between 0 and 1023 for Analog
 // Value might be slightly off as int rounds off
 const int Vmax = 5.2 Vmap;
 const int Vfull = 4.5 Vmap;
-const int Vstarving = 4 Vmap;
-const int Vdead = 3 Vmap;
-
-// Initialize the state as idle
-StateVariable state = idle;
+const int Vstarving = 4.0 Vmap;
+const int Vdead = 3.0 Vmap;
 
 // Initialize the system
 void setup(){
   // set serial monitor at 115200 boudrate
   Serial.begin(115200);
- 
   // Declare the battery energy level pin as input
   pinMode(Battery, INPUT);
-
   // declare RGB pins as output
   pinMode(LEDr, OUTPUT);
   pinMode(LEDg, OUTPUT);
   pinMode(LEDb, OUTPUT);
+  // Initialize the state as idle
+  state = idle;
 }
 
 // Functional part of the system
@@ -59,14 +57,14 @@ void loop(){
   switch (state) {
   case idle:        
     Serial.println("Idle");
-
+    // do something
     break;
   case maximum:    
     Serial.println("Maximum");
     digitalWrite(LEDg, HIGH);
     digitalWrite(LEDr, LOW);
     digitalWrite(LEDb, LOW);
-    if ( 
+    // if ( 
     // do something
     break;
   case charging:
@@ -90,6 +88,7 @@ void loop(){
   // Small delay to accomodate stability
   delay(1);                                    
 }
+
 
 
 
