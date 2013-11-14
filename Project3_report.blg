@@ -1,0 +1,32 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Project3_report.aux
+The style file: plain.bst
+Database file #1: References.bib
+You're missing a field name---line 5 of file References.bib
+ : 
+ : %    author    = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 18 of file References.bib
+ : 
+ : %    author    = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 30 of file References.bib
+ : 
+ : %    author    = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 46 of file References.bib
+ : 
+ : %    %author    = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 60 of file References.bib
+ :     
+ :     %volume    = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "lecture" isn't style-file defined
+--line 68 of file References.bib
+Warning--empty year in paper
+(There were 5 error messages)
