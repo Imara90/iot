@@ -26,11 +26,13 @@
 \usepackage{listings}
 \usepackage{color}
 
+\usepackage{appendix}
+
 \definecolor{mymauve}{rgb}{0.58, 0, 0.82}
 
 \lstset{
-	%backgroundcolor=\color{white},
-	%commentstyle=\color{mymauve}
+        %backgroundcolor=\color{white},
+        %commentstyle=\color{mymauve}
   belowcaptionskip=1\baselineskip,
   breaklines=true,
   frame=lr,
@@ -70,7 +72,7 @@
 }
 
 %----------------------------------------------------------------------------------------
-%  TITLE
+% TITLE
 %----------------------------------------------------------------------------------------
 
 \title{\textbf{Internet of Things }\\ % Title
@@ -89,7 +91,7 @@ Imara Speek 1506374} % Author
 \maketitle % Print the title section
 
 %----------------------------------------------------------------------------------------
-%  ABSTRACT AND KEYWORDS
+% ABSTRACT AND KEYWORDS
 %----------------------------------------------------------------------------------------
 
 %\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
@@ -102,7 +104,7 @@ Imara Speek 1506374} % Author
 %\vspace{30pt} % Some vertical space between the abstract and first section
 
 %----------------------------------------------------------------------------------------
-%  ESSAY BODY
+% ESSAY BODY
 %----------------------------------------------------------------------------------------
 
 \section{Introduction}
@@ -218,7 +220,7 @@ Imara Speek 1506374} % Author
 \label{sec:WeLight}
 \input{welight}
 % Show the end product
-% present the solidworks model 
+% present the solidworks model
 
 %----------------------------------------------
 
@@ -259,7 +261,7 @@ Imara Speek 1506374} % Author
 % what can be done in the future
 
 %----------------------------------------------------------------------------------------
-%  BIBLIOGRAPHY
+% BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
 %TODO add references to websites.
@@ -268,5 +270,10 @@ Imara Speek 1506374} % Author
 %\printbibliography[title=References]
 
 %----------------------------------------------------------------------------------------
+
+\appendix
+\section{Arduino Pro Mini code}
+
+\lstinputlisting{ICiot/ICiot.ino}
 
 \end{document} 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  14 NOV 2013 11:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.14)  14 NOV 2013 15:11
 entering extended mode
  %&-line parsing enabled.
 **Project3_report.tex
@@ -369,20 +369,20 @@ File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 (./Project3_report.aux)
 \openout1 = `Project3_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -418,9 +418,9 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 87.
-LaTeX Info: Redefining \ref on input line 87.
-LaTeX Info: Redefining \pageref on input line 87.
+Package hyperref Info: Link coloring OFF on input line 89.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
  (./Project3_report.out)
 (./Project3_report.out)
 \@outlinefile=\write4
@@ -513,93 +513,76 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 )
 (./proto.tex [6 <./wirelessset.jpg> <./statediagram.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 6.
-(./ICiot/ICiot.ino
+nput line 8.
+(./ICiot/pseudo/pseudo.ino
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 7.
- [7] [8])) (./indesign.tex) (./analysis.tex
+ [7]) [8]) (./indesign.tex) (./analysis.tex
 
 pdfTeX warning: /usr/bin/pdflatex (file ./rec_design.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<rec_design.pdf, id=468, 280.0824pt x 106.69862pt>
+<rec_design.pdf, id=461, 280.0824pt x 106.69862pt>
 File: rec_design.pdf Graphic file (type pdf)
- <use rec_design.pdf>
-[9 <./rec_design.pdf>]) (./batterylife.tex) (./charging.tex
-<cd_cycle.pdf, id=518, 963.6pt x 514.92375pt>
+ <use rec_design.pdf>)
+(./batterylife.tex [9 <./rec_design.pdf>]) (./charging.tex
+<cd_cycle.pdf, id=500, 963.6pt x 514.92375pt>
 File: cd_cycle.pdf Graphic file (type pdf)
- <use cd_cycle.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chargedischarge.tex
+ <use cd_cycle.pdf>)
+(./chargedischarge.tex [10 <./cd_cycle.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ctd2.pdf): PDF inclusion: found PDF v
 ersion <1.6>, but at most version <1.4> allowed
-<ctd2.pdf, id=521, 414.04688pt x 338.76563pt>
+<ctd2.pdf, id=534, 414.04688pt x 338.76563pt>
 File: ctd2.pdf Graphic file (type pdf)
- <use ctd2.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10]
+ <use ctd2.pdf> [11 <./ctd2.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ctd2c.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.4> allowed
-<ctd2c.pdf, id=542, 421.575pt x 316.18124pt>
+<ctd2c.pdf, id=551, 421.575pt x 316.18124pt>
 File: ctd2c.pdf Graphic file (type pdf)
- <use ctd2c.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./proposed.tex) [11 <./cd_cycle.pdf>] (./internet.tex [12 <./ctd2.pdf>]
+ <use ctd2c.pdf>) (./proposed.tex)
+(./internet.tex [12 <./ctd2c.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IoT.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<IoT.pdf, id=590, 542.025pt x 126.4725pt>
+<IoT.pdf, id=572, 542.025pt x 126.4725pt>
 File: IoT.pdf Graphic file (type pdf)
- <use IoT.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./welight.tex) [13 <./ctd2c.pdf>] (./results.tex) (./conclusion.tex)
-(./future.tex) (./Project3_report.bbl [14 <./IoT.pdf>]) [15]
-(./Project3_report.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ <use IoT.pdf>) [13 <./IoT.pdf>]
+(./welight.tex) (./results.tex) (./conclusion.tex) (./future.tex)
+(./Project3_report.bbl) [14] (./ICiot/ICiot.ino [15] [16] [17]) [18]
+(./Project3_report.aux) ) 
 Here is how much of TeX's memory you used:
- 8677 strings out of 495061
- 124866 string characters out of 1182621
- 785120 words of memory out of 3000000
- 11441 multiletter control sequences out of 15000+50000
+ 8874 strings out of 495061
+ 127889 string characters out of 1182621
+ 873120 words of memory out of 3000000
+ 11439 multiletter control sequences out of 15000+50000
  8015 words of font info for 30 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  41i,19n,49p,1689b,1742s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmitt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Project3_report.pdf (15 pages, 4441171 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Project3_report.pdf (18 pages, 4477609 bytes).
 PDF statistics:
- 833 PDF objects out of 1000 (max. 8388607)
- 210 named destinations out of 1000 (max. 500000)
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 405 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

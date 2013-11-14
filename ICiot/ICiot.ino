@@ -1,8 +1,8 @@
 /******************************************************************************
  *  This is a program to facilitatite a wireless power transfer protocol
  *  for the IOT project on TU Delft by M. Wasif & I.C.T.M. Speek
- *
  *****************************************************************************/
+ 
 // Variable to save battery and pin declaration
 int voltage = 0;      // variable to read voltage level battery into
 int Battery = A0;     // Analog pin to read battery voltage
@@ -43,7 +43,7 @@ state;
 // Varies between 0 and 5 V, but should map between 0 and 1023 for Analog
 // Value might be slightly off as int rounds off
 const int Vmax = 3.2 Vmap;
-const int Vfull = 3 Vmap;
+const int Vfull = 3.0 Vmap;
 const int Vstarving = 2.4 Vmap;
 const int Vdead = 2.2 Vmap;
 
@@ -80,7 +80,6 @@ void loop(){
     // reset the debouncing timer
     lastDebounceTime = millis();
   } 
-
   if ((millis() - lastDebounceTime) > debounceDelay) {
     // whatever the reading is at, it's been there for longer
     // than the debounce delay, so take it as the actual current state:
@@ -106,7 +105,7 @@ void loop(){
     }
     else if (show == HIGH){
       state = running;
-      break; 
+      break;
     }
     else if (voltage < Vfull){
       state = starving;
@@ -134,17 +133,22 @@ void loop(){
     }
     break;
   case charging:
-    digitalWrite(LEDg, HIGH);
-    digitalWrite(LEDr, LOW);
-    digitalWrite(LEDb, LOW);
     // Perform charging tasks
     Serial.println("Charging");
+    digitalWrite(LEDg, LOW);
+    digitalWrite(LEDr, LOW);
+    digitalWrite(LEDb, HIGH);
+    delay(500);
+    digitalWrite(LEDg, LOW);
+    digitalWrite(LEDr, LOW);
+    digitalWrite(LEDb, LOW);
+    delay(500);   
     // Check if state translation is necessary
     if (buttonState == LOW){
       state = idle;
       break; 
     }
-    if (voltage < Vfull){
+    else if (voltage < Vfull){
       state = starving;
       break;  
     }
@@ -152,12 +156,15 @@ void loop(){
   case running:
     // Perform running tasks
     Serial.println("Running");
+    digitalWrite(LEDg, LOW);
+    digitalWrite(LEDr, LOW);
+    digitalWrite(LEDb, LOW);
     // Check if state translation is necessary
     if (show == LOW){
       state = idle;
       break; 
     }
-    if (voltage < Vfull){
+    else if (voltage < Vfull){
       state = starving;
       break; 
     }
@@ -165,12 +172,32 @@ void loop(){
   case starving:
     // Perform starving tasks
     Serial.println("Starving");
+    digitalWrite(LEDg, LOW);
+    digitalWrite(LEDr, HIGH);
+    digitalWrite(LEDb, LOW);
     // Check if state translation is necessary
-    if (voltage >=
+    if (voltage >= Vfull){
+      state = idle;
+      break; 
+    }
+    else if (voltage < Vstarving){
+      // not necessary in actual implementation
+      // the IC will not receive any power anymore by now
+      state = dead; 
+      break; 
+    }
     break;
   case dead:
+    // Play Dead - not necessary as IC is not powered
     Serial.println("Dead");
-    // something
+    digitalWrite(LEDg, LOW);
+    digitalWrite(LEDr, LOW);
+    digitalWrite(LEDb, LOW);    
+    // Check if state translation is necessary
+    if (voltage >= Vstarving){
+      state = starving;
+      break; 
+    }
     break; 
   }
 
@@ -181,6 +208,8 @@ void loop(){
   // Small delay to accomodate stability
   delay(1);                                    
 }
+
+
 
 
 
