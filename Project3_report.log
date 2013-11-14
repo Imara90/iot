@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.10)  13 NOV 2013 23:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.10)  14 NOV 2013 09:39
 entering extended mode
 **S:/School/Internet*of*Things/iot/Project3_report.tex
 ("S:/School/Internet of Things/iot/Project3_report.tex"
@@ -470,48 +470,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--15
 
 ) ("S:\School\Internet of Things\iot\idea.tex")
 ("S:\School\Internet of Things\iot\scenario.tex"
-<usecase.pdf, id=110, 422.34589pt x 297.86484pt>
+<usecase.pdf, id=109, 422.34589pt x 297.86484pt>
 File: usecase.pdf Graphic file (type pdf)
  <use usecase.pdf>
 Package pdftex.def Info: usecase.pdf used on input line 8.
 (pdftex.def)             Requested size: 362.37569pt x 255.5679pt.
- [2]
-<sequenceshow.pdf, id=122, 253.40674pt x 231.17868pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sequenceshow.pdf, id=112, 253.40674pt x 231.17868pt>
 File: sequenceshow.pdf Graphic file (type pdf)
  <use sequenceshow.pdf>
 Package pdftex.def Info: sequenceshow.pdf used on input line 18.
 (pdftex.def)             Requested size: 226.48395pt x 206.62672pt.
 
-<sequencecharge.pdf, id=125, 342.32191pt x 248.96112pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2] <sequencecharge.pdf, id=125, 342.32191pt x 248.96112pt>
 File: sequencecharge.pdf Graphic file (type pdf)
 
 <use sequencecharge.pdf>
 Package pdftex.def Info: sequencecharge.pdf used on input line 28.
 (pdftex.def)             Requested size: 317.07614pt x 230.6045pt.
- [3 <S:/School/Internet of Things/iot/usecase.pdf> <S:/School/Internet of Thing
-s/iot/sequenceshow.pdf>]
-<sequenceinternet.pdf, id=186, 320.09387pt x 253.40674pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sequenceinternet.pdf, id=127, 320.09387pt x 253.40674pt>
 File: sequenceinternet.pdf Graphic file (type pdf)
 
 <use sequenceinternet.pdf>
 Package pdftex.def Info: sequenceinternet.pdf used on input line 37.
 (pdftex.def)             Requested size: 317.07614pt x 251.0397pt.
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+) [3 <S:/School/Internet of Things/iot/usecase.pdf> <S:/School/Internet of Thin
+gs/iot/sequenceshow.pdf>]
 ("S:\School\Internet of Things\iot\realize.tex" [4 <S:/School/Internet of Thing
-s/iot/sequencecharge.pdf>] <design.pdf, id=222, 395.67122pt x 106.69763pt>
+s/iot/sequencecharge.pdf> <S:/School/Internet of Things/iot/sequenceinternet.pd
+f>] <design.pdf, id=243, 395.67122pt x 106.69763pt>
 File: design.pdf Graphic file (type pdf)
-
-<use design.pdf>
+ <use design.pdf>
 Package pdftex.def Info: design.pdf used on input line 20.
 (pdftex.def)             Requested size: 362.37569pt x 97.72179pt.
 
 
 LaTeX Warning: Reference `sec:result' on page 5 undefined on input line 25.
 
-<wirelessset.jpg, id=228, 2569.6pt x 1445.4pt>
+<wirelessset.jpg, id=249, 2569.6pt x 1445.4pt>
 File: wirelessset.jpg Graphic file (type jpg)
  <use wirelessset.jpg>
 Package pdftex.def Info: wirelessset.jpg used on input line 30.
@@ -520,13 +526,17 @@ Package pdftex.def Info: wirelessset.jpg used on input line 30.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) ("S:\School\Internet of Things\iot\state.tex" [5 <S:/School/Internet of Thing
-s/iot/sequenceinternet.pdf> <S:/School/Internet of Things/iot/design.pdf>]
-<statediagram.pdf, id=290, 426.7905pt x 228.5609pt>
+) ("S:\School\Internet of Things\iot\state.tex"
+<statediagram.pdf, id=252, 426.7905pt x 228.5609pt>
 File: statediagram.pdf Graphic file (type pdf)
  <use statediagram.pdf>
 Package pdftex.def Info: statediagram.pdf used on input line 7.
 (pdftex.def)             Requested size: 362.37569pt x 194.06493pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <S:/School/Internet of Things/iot/design.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -534,8 +544,9 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
- [6 <S:/School/Internet of Things/iot/wirelessset.jpg> <S:/School/Internet of T
-hings/iot/statediagram.pdf>]) ("S:\School\Internet of Things\iot\proto.tex"
+)
+("S:\School\Internet of Things\iot\proto.tex" [6 <S:/School/Internet of Things/
+iot/wirelessset.jpg> <S:/School/Internet of Things/iot/statediagram.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
@@ -544,11 +555,11 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
 ("S:\School\Internet of Things\iot\ICiot/ICiot.ino"
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 8.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 7.
  [7]))
 ("S:\School\Internet of Things\iot\indesign.tex")
 ("S:\School\Internet of Things\iot\analysis.tex"
-<rec_design.pdf, id=380, 280.0824pt x 106.69862pt>
+<rec_design.pdf, id=391, 280.0824pt x 106.69862pt>
 File: rec_design.pdf Graphic file (type pdf)
  <use rec_design.pdf>
 Package pdftex.def Info: rec_design.pdf used on input line 10.
@@ -557,7 +568,7 @@ Package pdftex.def Info: rec_design.pdf used on input line 10.
 [8 <S:/School/Internet of Things/iot/rec_design.pdf>])
 ("S:\School\Internet of Things\iot\batterylife.tex")
 ("S:\School\Internet of Things\iot\charging.tex"
-<cd_cycle.pdf, id=447, 963.6pt x 514.92375pt>
+<cd_cycle.pdf, id=461, 963.6pt x 514.92375pt>
 File: cd_cycle.pdf Graphic file (type pdf)
  <use cd_cycle.pdf>
 Package pdftex.def Info: cd_cycle.pdf used on input line 12.
@@ -570,7 +581,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.EXE (file S:/School/Internet of Things/iot/ctd2.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<ctd2.pdf, id=463, 414.04688pt x 338.76563pt>
+<ctd2.pdf, id=477, 414.04688pt x 338.76563pt>
 File: ctd2.pdf Graphic file (type pdf)
  <use ctd2.pdf>
 Package pdftex.def Info: ctd2.pdf used on input line 14.
@@ -583,7 +594,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.EXE (file S:/School/Internet of Things/iot/ctd2c.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<ctd2c.pdf, id=469, 421.575pt x 316.18124pt>
+<ctd2c.pdf, id=483, 421.575pt x 316.18124pt>
 File: ctd2c.pdf Graphic file (type pdf)
  <use ctd2c.pdf>
 Package pdftex.def Info: ctd2c.pdf used on input line 28.
@@ -595,7 +606,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) ("S:\School\Internet of Things\iot\proposed.tex" [10 <S:/School/Internet of T
 hings/iot/cd_cycle.pdf>]) ("S:\School\Internet of Things\iot\internet.tex"
 [11 <S:/School/Internet of Things/iot/ctd2.pdf>] [12 <S:/School/Internet of Thi
-ngs/iot/ctd2c.pdf>] <IoT.pdf, id=531, 542.025pt x 126.4725pt>
+ngs/iot/ctd2c.pdf>] <IoT.pdf, id=545, 542.025pt x 126.4725pt>
 File: IoT.pdf Graphic file (type pdf)
  <use IoT.pdf>
 Package pdftex.def Info: IoT.pdf used on input line 34.
@@ -623,34 +634,33 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 272.
  ) 
 Here is how much of TeX's memory you used:
- 9502 strings out of 493921
- 140610 string characters out of 3147281
- 424854 words of memory out of 3000000
- 12465 multiletter control sequences out of 15000+200000
- 8622 words of font info for 32 fonts, out of 3000000 for 9000
+ 9533 strings out of 493921
+ 141025 string characters out of 3147281
+ 500854 words of memory out of 3000000
+ 12483 multiletter control sequences out of 15000+200000
+ 8015 words of font info for 30 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,19n,49p,1722b,1776s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmitt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-tt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-
-Output written on Project3_report.pdf (14 pages, 4433927 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mtt8.pfb>
+Output written on Project3_report.pdf (14 pages, 4429431 bytes).
 PDF statistics:
- 755 PDF objects out of 1000 (max. 8388607)
- 145 named destinations out of 1000 (max. 500000)
+ 768 PDF objects out of 1000 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
